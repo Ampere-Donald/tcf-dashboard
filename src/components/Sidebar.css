@@ -1,0 +1,103 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sidebar.css */
+.sidebar {
+  width: 250px;
+  background-color: #2c3e50; /* Gris foncé */
+  color: #ecf0f1; /* Blanc légèrement gris */
+  padding: 1rem;
+  height: 100vh;
+  box-shadow: 4px 0 8px rgba(0, 0, 0, 0.2); /* Ombre portée */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1); /* Animation légère sur le logo */
+}
+
+h2 {
+  text-align: center;
+  color: #ecf0f1; /* Texte en blanc-gris */
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  flex-grow: 1;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  margin: 0.3rem 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+ul li:hover {
+  background-color: #34495e; /* Gris plus clair au survol */
+  transform: translateX(5px); /* Translation vers la droite */
+}
+
+ul li::before {
+  content: "•";
+  color: #3498db; /* Bleu clair pour la puce */
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.home-button {
+  display: block;
+  padding: 0.7rem 1.5rem;
+  background-color: #3498db; /* Bleu clair */
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #2980b9; /* Bleu plus foncé au survol */
+  transform: scale(1.05); /* Effet d'agrandissement */
+}

@@ -1,0 +1,45 @@
+.dashboard {
+    margin-left: 260px;
+    padding: 2rem;
+    background: #f4f6f9;
+    height: 100vh;
+  }
+  
+  .course-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tag.high-priority {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .course-actions button {
+    margin: 0.5rem 0.2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .course-actions button:hover {
+    background-color: #2980b9;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard {
+      margin-left: 0;
+    }
+  
+    .sidebar {
+      display: none;
+    }
+  }
+  

@@ -1,0 +1,38 @@
+/* SectionCard.css */
+.section-card {
+    background: #ffebf0; /* Fond rose très clair */
+    border: 1px solid #ffd3e2;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .section-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .section-card h2 {
+    color: #d63384; /* Rose */
+  }
+  
+  .section-card p {
+    margin: 1rem 0;
+  }
+  
+  .section-card button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .section-card button:hover {
+    background-color: #a71d5e; /* Rose foncé */
+  }
+  
